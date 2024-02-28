@@ -19,3 +19,6 @@ const object = {
 };
 console.log(object.class.teacher);
 console.log(object.shecan.trainee);
+for(let key in object.class){
+    console.log(key +":"+ object.class[key]);
+}
